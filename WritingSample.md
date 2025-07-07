@@ -15,6 +15,7 @@ BMC HelixGPT uses published knowledge articles from the following knowledge prov
 
 ### Before you begin
 Perform the following tasks before enabling Agentic chat:
+
 |No.|Task|Reference|
 |---|----|---------|
 |1|Ingest data from the BMC Helix ITSM: Knowledge Management and BMC Helix Knowledge Management by ComAround into BMC HelixGPT.|Cross-reference to the topic.
