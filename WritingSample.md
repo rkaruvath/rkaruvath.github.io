@@ -53,3 +53,4 @@ The token per minute (TPM) rate limit configured for the MS Azure GPT-4 (Omni) m
 
 * Response generation depends on many factors such as accuracy of the knowledge articles, model, and prompt configuration. Therefore, the generated responses might vary.
 d* BMC HelixGPT does not use information present in the attached documents of the knowledge articles for generating responses. Hence, if the information is present in an attached document of a knowledge article, the generated response does not contain the information.
+</details>
