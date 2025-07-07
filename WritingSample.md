@@ -17,8 +17,8 @@ BMC HelixGPT uses published knowledge articles from the following knowledge prov
 Perform the following tasks before enabling Agentic chat:
 
 |No.|Task|Reference|
-|---|----|---------|
-|1|Ingest data from the BMC Helix ITSM: Knowledge Management and BMC Helix Knowledge Management by ComAround into BMC HelixGPT.|Cross-reference to the topic.
+|---|---|---|
+|1|Ingest data from the BMC Helix ITSM: Knowledge Management and BMC Helix Knowledge Management by ComAround into BMC HelixGPT.|Cross-reference to the topic.|
 |2|The **Agent in Global Context** skill is provided out of the box for Agentic chat to generate an answer when a user submits a question in Agentic chat.<br>By default, this skill uses the Azure OpenAI GPT-4o (Omni) model.<br>To use a different model, associate the desired model with this out-of-the-box skill in the BMC HelixGPT Manager administrator UI.<br>If you have created a custom skill and want to use it instead of the Agent in Global Context skill, associate the desired model with the custom skill.|Cross-reference to the topic.|
 
 ## To enable Agentic chat for BMC Helix ITSM
