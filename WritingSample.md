@@ -34,7 +34,7 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
    * **chat**: To set the default mode to Agentic chat.
 
 ## FAQ
-<details open>
+<details>
   <summary>Agentic chat does not generate any response even after I have performed the required configurations</summary>
   
   Possible reasons:
