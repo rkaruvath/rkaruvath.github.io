@@ -1,8 +1,3 @@
----
-title: Work samples
-layout: default
----
-
 # Work samples
 The following are the links to the work samples:
 
