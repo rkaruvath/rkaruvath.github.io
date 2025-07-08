@@ -1,5 +1,6 @@
 ---
 title: Writing sample
+layout: default
 ---
 # Configuring Agentic chat for BMC Helix ITSM
 
