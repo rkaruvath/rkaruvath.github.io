@@ -1,3 +1,6 @@
+This page contains writing sample.
+***
+
 # Configuring Agentic chat for BMC Helix ITSM
 
 As an administrator, configure Agentic Chat in BMC Helix ITSM to provide service desk agents with a conversational, AI-driven search experience. Agentic Chat uses the advanced AI capabilities of BMC HelixGPT to augment the Full Text Search (FTS)-based global search with a chat-based search.
@@ -38,7 +41,7 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
   <summary>Agentic chat does not generate any response even after I have performed the required configurations</summary>
 <p>
   Possible reasons:
-  
+
   * A relevant published knowledge article does not exist in the knowledge repository referenced by BMC HelixGPT.
 
   *	A relevant published knowledge article exists, but the logged-in user is not entitled to view the knowledge article.</p>
@@ -47,15 +50,15 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
 
 <details>
   <summary>Agentic chat generates a blank response when using the MS Azure GPT-4 (Omni) model</summary>
-  The token per minute (TPM) rate limit configured for the MS Azure GPT-4 (Omni) model might be reached.
+ <p>The token per minute (TPM) rate limit configured for the MS Azure GPT-4 (Omni) model might be reached.</p>
 </details>
 
 
 <details>
   <summary>Agentic chat shows incorrect or varied responses when searching for information from knowledge articles</summary>
   
-  Possible reasons:
+  <p>Possible reasons:
   * Response generation depends on many factors such as accuracy of the knowledge articles, model, and prompt configuration. Therefore, the generated responses might vary.
 
-  * BMC HelixGPT does not use information present in the attached documents of the knowledge articles for generating responses. Hence, if the information is present in an attached document of a knowledge article, the generated response does not contain the information.
+  * BMC HelixGPT does not use information present in the attached documents of the knowledge articles for generating responses. Hence, if the information is present in an attached document of a knowledge article, the generated response does not contain the information.</p>
 </details>
