@@ -1,9 +1,12 @@
 <div style="text-align: right">
 <a href="https://rkaruvath.github.io/WorkSamples/index.html">Go to Home page</a>
 </div>
-           
+ 
+ # Writing sample
+ This page contains writing sample.
 
-# Configuring Agentic chat for BMC Helix ITSM
+
+## Configuring Agentic chat for BMC Helix ITSM
 
 As an administrator, configure Agentic Chat in BMC Helix ITSM to provide service desk agents with a conversational, AI-driven search experience. Agentic Chat uses the advanced AI capabilities of BMC HelixGPT to augment the Full Text Search (FTS)-based global search with a chat-based search.
 
@@ -13,7 +16,7 @@ For example, instead of manually searching for a knowledge article that contains
 
 To generate the responses, Agentic Chat uses the Service Collaborator AI agent, which is a large language model (LLM)-based AI agent of BMC HelixGPT. Service Collaborator processes natural language inputs, autonomously learns and adapts to user interactions, makes context-aware decisions, and generates intelligent responses.
 
-## Supported knowledge providers
+### Supported knowledge providers
 BMC HelixGPT uses published knowledge articles from the following knowledge providers to generate responses for knowledge article-related questions:
 * BMC Helix ITSM: Knowledge Management
 * BMC Helix Knowledge Management by ComAround 
@@ -26,11 +29,11 @@ Perform the following tasks before enabling Agentic chat:
 |1|Ingest data from the BMC Helix ITSM: Knowledge Management and BMC Helix Knowledge Management by ComAround into BMC HelixGPT.|Cross-reference to the topic.|
 |2|The **Agent in Global Context** skill is provided out of the box for Agentic chat to generate an answer when a user submits a question in Agentic chat.<br>By default, this skill uses the Azure OpenAI GPT-4o (Omni) model.<br>To use a different model, associate the desired model with this out-of-the-box skill in the BMC HelixGPT Manager administrator UI.<br>If you have created a custom skill and want to use it instead of the Agent in Global Context skill, associate the desired model with the custom skill.|Cross-reference to the topic.|
 
-## To enable Agentic chat for BMC Helix ITSM
+### To enable Agentic chat for BMC Helix ITSM
 1. In Mid Tier, open the **AR System Configuration Generic UI** form.
 2. Set the **enableHelixGPTGlobalChat** CCS parameter to true.
 
-## To set the default mode to global search or Agentic chat
+### To set the default mode to global search or Agentic chat
 After you enable Agentic chat, you can set the default search mode to Agentic chat or global search.
 
 1. In Mid Tier, open the **AR System Configuration Generic UI** form.
@@ -38,7 +41,7 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
    * **search**: To set the default mode to global search.
    * **chat**: To set the default mode to Agentic chat.
 
-## FAQ
+### FAQ
 <details>
   <summary>Agentic chat does not generate any response even after I have performed the required configurations</summary>
 <p>
@@ -66,6 +69,3 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
 
   * BMC HelixGPT does not use information present in the attached documents of the knowledge articles for generating responses. Hence, if the information is present in an attached document of a knowledge article, the generated response does not contain the information.</p>
 </details>
-
-
-[def]: https://rkaruvath.github.io/WorkSamples/index.html
