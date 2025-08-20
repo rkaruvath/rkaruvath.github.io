@@ -1,5 +1,8 @@
-<div style="text-align: right">[Go to Home page](https://rkaruvath.github.io/WorkSamples/index.html)</div>
-                                                             
+<div style="text-align: right">
+<a href="https://rkaruvath.github.io/WorkSamples/index.html">Go to Home page</a>
+</div>
+           
+
 # Configuring Agentic chat for BMC Helix ITSM
 
 As an administrator, configure Agentic Chat in BMC Helix ITSM to provide service desk agents with a conversational, AI-driven search experience. Agentic Chat uses the advanced AI capabilities of BMC HelixGPT to augment the Full Text Search (FTS)-based global search with a chat-based search.
@@ -63,3 +66,6 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
 
   * BMC HelixGPT does not use information present in the attached documents of the knowledge articles for generating responses. Hence, if the information is present in an attached document of a knowledge article, the generated response does not contain the information.</p>
 </details>
+
+
+[def]: https://rkaruvath.github.io/WorkSamples/index.html
