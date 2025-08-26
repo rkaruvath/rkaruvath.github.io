@@ -43,25 +43,25 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
 
 ### FAQ
 <details>
-  <summary>> Agentic chat does not generate any response even after I have performed the required configurations</summary>
+  <summary>> Agentic chat does not generate any response even after I have performed the required configurations.</summary>
 <p>
   Possible reasons:
 
-  * A relevant published knowledge article does not exist in the knowledge repository referenced by BMC HelixGPT.
+  - A relevant published knowledge article does not exist in the knowledge repository referenced by BMC HelixGPT.
 
-  *	A relevant published knowledge article exists, but the logged-in user is not entitled to view the knowledge article.</p>
+  -	A relevant published knowledge article exists, but the logged-in user is not entitled to view the knowledge article.</p>
 </details>
 
 
 <details>
-  <summary>> Agentic chat generates a blank response when using the MS Azure GPT-4 (Omni) model</summary>
- <p>The token per minute (TPM) rate limit configured for the MS Azure GPT-4 (Omni) model might be reached.</p>
+  <summary>> Agentic chat generates a blank response when using the MS Azure GPT-4 (Omni) model.</summary>
+ <p>
+ The token per minute (TPM) rate limit configured for the MS Azure GPT-4 (Omni) model might be reached.</p>
 </details>
 
 
 <details>
-  <summary>> Agentic chat shows incorrect or varied responses when searching for information from knowledge articles</summary>
-  
+  <summary>> Agentic chat shows incorrect or varied responses when searching for information from knowledge articles.</summary>
   <p>
   Possible reasons:
 
