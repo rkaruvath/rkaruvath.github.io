@@ -1,7 +1,3 @@
----
-id: infographicsample
----
-
 <div style="text-align: right">
 <a href="https://rkaruvath.github.io/WorkSamples/index.html">Go to Home page</a>
 </div>
