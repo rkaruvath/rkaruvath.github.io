@@ -2,9 +2,8 @@
 <a href="https://rkaruvath.github.io/WorkSamples/index.html">Go to Home page</a>
 </div>
  
- # Writing sample
- This page contains writing sample.
-
+# Writing sample
+This page contains writing sample.
 
 ## Configuring Agentic chat for BMC Helix ITSM
 

@@ -3,7 +3,6 @@
 </div>
 
 # Video sample
-
 Click the following thumbnail to download the video:
 
 [![Watch the video](https://raw.githubusercontent.com/rkaruvath/rkaruvath.github.io/main/Video/thumbnail.png)](https://raw.githubusercontent.com/rkaruvath/rkaruvath.github.io/main/Video/AskHelixGPT_ITSM.mp4)
