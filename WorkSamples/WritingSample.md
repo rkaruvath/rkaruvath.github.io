@@ -45,11 +45,12 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
 <details>
   <summary>> Agentic chat does not generate any response even after I have performed the required configurations.</summary>
 <p>
-  Possible reasons:
-
-  - A relevant published knowledge article does not exist in the knowledge repository referenced by BMC HelixGPT.
-
-  -	A relevant published knowledge article exists, but the logged-in user is not entitled to view the knowledge article.</p>
+  Possible reasons:</p>
+<p>
+  * A relevant published knowledge article does not exist in the knowledge repository referenced by BMC HelixGPT.
+  
+  *	A relevant published knowledge article exists, but the logged-in user is not entitled to view the knowledge article.
+  </p>
 </details>
 
 
