@@ -3,7 +3,7 @@
 </div>
  
 # Writing sample
-This page contains my writing sample. Please note the content is for example purpose only.
+This page contains my writing sample. Please note the content is for sample purpose only.
 
 ## Configuring Agentic chat for BMC Helix ITSM
 
