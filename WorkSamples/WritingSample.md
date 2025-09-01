@@ -3,7 +3,7 @@
 </div>
  
 # Writing sample
-This page contains writing sample.
+This page contains my writing sample.
 
 ## Configuring Agentic chat for BMC Helix ITSM
 
