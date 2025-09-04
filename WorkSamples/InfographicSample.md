@@ -2,12 +2,14 @@
 <a href="https://rkaruvath.github.io/WorkSamples/index.html">Go to Home page</a>
 </div>
 
-# Infographic samples for Knowledge Management Lifecycle
-This page contains infographic samples depicting Knowledge Management Lifecylce.
-
+# Infographic samples
+This page contains my infographic samples.
 
 ## Sample 1:
-![Knowledge Management Lifecycle Sample 1](/Images/Knowledge_Management_Lifecycle_Sample2.png)
+![Load Balancing Architecture](/Images/LoadBalancing_Architecture.png)
 
 ## Sample 2:
+![Knowledge Management Lifecycle Sample 1](/Images/Knowledge_Management_Lifecycle_Sample2.png)
+
+## Sample 3:
 ![Knowledge Management Lifecycle Sample 2](/Images/Knowledge_Management_Lifecycle.png)
