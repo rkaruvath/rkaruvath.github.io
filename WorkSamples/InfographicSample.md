@@ -10,6 +10,3 @@ This page contains my infographic samples.
 
 ## Sample 2:
 ![Knowledge Management Lifecycle Sample 1](/Images/Knowledge_Management_Lifecycle_Sample2.png)
-
-## Sample 3:
-![Knowledge Management Lifecycle Sample 2](/Images/Knowledge_Management_Lifecycle.png)
