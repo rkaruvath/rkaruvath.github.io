@@ -23,6 +23,7 @@ Creates a new change request.
 ### Request
 
 #### Header parameters
+
 |Name|Description|
 |---|---|
 |Authorization|Contains the authentication credentials for HTTP authentication.<br>Example: AR-JWT={{token}}|
