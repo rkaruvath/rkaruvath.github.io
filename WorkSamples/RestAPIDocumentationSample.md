@@ -45,10 +45,10 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 |changeManager.loginId|The login ID of the change manager  monitoring the change request.|string|
 
 #### Example schema
-![Create change schema](/images/Create_Change_API_Request_Schema.png)
+![Create change schema](/Images/Create_Change_API_Request_Schema.png)
 
 #### Request sample
-![Create change request sample](/images/Create_Change_API_Request_Sample_cURL.png)
+![Create change request sample](/Images/Create_Change_API_Request_Sample_cURL.png)
 
 ### Response
 
@@ -85,7 +85,7 @@ Shows a change request by its ID.
 |id|Unique identifier of the change request to be retrieved.<br>For example: CRQ000000000001.|
 
 #### Request sample
-![Get change request by ID](/images/Get_Change_API_Request_Sample_cURL.png)
+![Get change request by ID](/Images/Get_Change_API_Request_Sample_cURL.png)
 
 ### Response
 
