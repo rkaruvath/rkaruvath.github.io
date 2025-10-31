@@ -15,7 +15,7 @@ Alternatively, you can use the following REST API endpoints to perform the chang
 | [Create a change request](#create-a-change-request)|POST|/change|Creates a new change request.|
 |[Show a change request](#show-a-change-request)|GET|/change/{id}|Shows the details of a change request, by ID.|
 |[Update a change request](#update-a-change-request)|PATCH|/change/{id}|Updates a change request, by ID.
-<br>
+
 ## Create a change request
 `POST` /change
 
@@ -64,7 +64,7 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 |400 Bad request|One or more fields contain invalid values.|
 |403 Unauthorized|The authentication credentials are incorrect or missing.|
 |500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|
-<br>
+
 ## Show a change request
 `GET` /change/{id}
 
@@ -101,7 +101,7 @@ Shows a change request by its ID.
 |403 Unauthorized|The authentication credentials are incorrect or missing.|
 |404|The requested resource does not exist.|
 |500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|
-<br>
+
 ## Update a change request
 `PATCH` /change/{id}
 
