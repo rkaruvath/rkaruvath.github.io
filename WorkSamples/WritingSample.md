@@ -3,15 +3,13 @@
 </div>
  
 # Writing sample
-This page contains my writing sample. Please note the content is for sample purpose only.
+This page contains my writing sample.
 
 ## Configuring Agentic chat in BMC Helix ITSM
 
-As an administrator, configure Agentic chat in BMC Helix ITSM. While working on incidents, service desk agents can use Agentic chat for a conversational, AI-driven experience to search for information from knowledge articles. Agentic chat uses the advanced AI capabilities of BMC HelixGPT to augment the full text search-based global search with an AI-powered, chat-based search.
+As an administrator, configure Agentic chat in BMC Helix ITSM. Agentic chat uses the advanced AI capabilities of BMC HelixGPT to augment the full text search-based global search with an AI-powered, chat-based search.
 
-Instead of manually searching for information from knowledge articles, service desk agents can enter specific questions in Agentic chat and get relevant, summarized answers leading to faster incident analysis and resolution.
-
-BMC HelixGPT processes natural language inputs, learns from user interactions autonomously, makes context-aware decisions, and generates intelligent responses.
+While working on incidents, service desk agents can use Agentic chat for a conversational, AI-driven experience to search for information from knowledge articles that helps them resolve the incidents. Instead of manually searching for information from knowledge articles, service desk agents can ask specific questions in Agentic chat and get relevant, summarized answers leading to faster incident analysis and resolution.
 
 ### Before you begin
 Perform the following tasks before enabling Agentic chat:
