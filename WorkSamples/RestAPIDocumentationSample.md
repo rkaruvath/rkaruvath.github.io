@@ -51,7 +51,7 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 #### Example schema
 ![Create change schema](/Images/Create_Change_API_Request_Schema.png)
 
-#### Request sample
+#### Example request
 ![Create change request sample](/Images/Create_Change_API_Request_Sample_cURL.png)
 
 ### Response
@@ -88,7 +88,7 @@ Shows a change request by its ID.
 |---|---|
 |id|Unique identifier of the change request to be retrieved.<br>For example: CRQ000000000001.|
 
-#### Request sample
+#### Example request
 ![Get change request by ID](/Images/Get_Change_API_Request_Sample_cURL.png)
 
 ### Response
@@ -140,7 +140,7 @@ urgency (optional)|Urgency measures how soon a change will significantly impact 
 #### Example schema
 ![Update change schema](/Images/Update_Change_API_Request_Schema.png)
 
-#### Request sample
+#### Example request
 ![Update change request sample](/Images/Update_Change_API_Request_Sample_cURL.png)
 
 ### Response
