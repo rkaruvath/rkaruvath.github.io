@@ -3,7 +3,7 @@
 </div>
 
 # Infographic samples
-This page contains my infographic samples.
+This page contains infographic samples.
 
 ## Sample 1:
 ![Load Balancing Architecture](/Images/LoadBalancing_Architecture.png)
