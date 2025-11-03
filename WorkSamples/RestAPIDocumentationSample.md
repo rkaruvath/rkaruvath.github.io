@@ -99,7 +99,7 @@ Shows a change request by its ID.
 |---|---|
 |200 OK|The resource is retrieved successfully.|
 |403 Unauthorized|The authentication credentials are incorrect or missing.|
-|404|The requested resource does not exist.|
+|404 Not found|The requested resource does not exist.|
 |500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|
 
 ## Update a change request
