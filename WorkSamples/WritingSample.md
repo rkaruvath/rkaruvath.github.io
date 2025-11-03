@@ -21,7 +21,7 @@ Perform the following tasks before enabling Agentic chat:
 
 ### To enable Agentic chat for BMC Helix ITSM
 1. In Mid Tier, open the **AR System Configuration Generic UI** form.
-2. Set the **enableHelixGPTGlobalChat** parameter to true.
+2. Set the **enableHelixGPTGlobalChat** parameter to **true**.
 
 ### To set the default search mode to Agentic chat or global search 
 After you enable Agentic chat, you can set the default search mode to Agentic chat or global search.
