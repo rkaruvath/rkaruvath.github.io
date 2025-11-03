@@ -3,7 +3,7 @@
 </div>
 
 # Video sample
-This page contains video sample.
+This page contains a video sample.
 
 Click the following thumbnail to download the video:
 
