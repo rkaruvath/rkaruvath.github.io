@@ -98,7 +98,7 @@ Shows a change request by its ID.
 |Status code|Description|Example response|
 |---|---|---|
 |200 OK|The resource is retrieved successfully.|![Get_200](/Images/Get_200_Retrieved.png)|
-|403 Unauthorized|The authentication credentials are incorrect or missing.|![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
+|403 Unauthorized|The authentication credentials are incorrect or missing.|![GET_403_Unauthorized](/Images/Get_403_Unauthorized.png)|
 |404 Not found|The requested resource does not exist.|![404_Not_Found](/Images/404_Not_Found.png)|
 |500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
 
