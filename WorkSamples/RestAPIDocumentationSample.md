@@ -149,7 +149,7 @@ urgency (optional)|Urgency measures how soon a change will significantly impact 
 
 |Status code|Description|Example response|
 |---|---|---|
-|200 OK|Successfully updated the resource.|![200_OK](/Images/Patch_200_OK.png)|
+|200 OK|Successfully updated the resource.|![200_OK_Updated](/Images/Patch_200_OK.png)|
 |400 Bad request|One or more fields contain invalid values.|![400_Bad_Request](/Images/Patch_400_Bad_Request.png)|
 |403 Unauthorized|The authentication credentials are incorrect or missing.|![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
 |500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
