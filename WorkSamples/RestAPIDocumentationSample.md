@@ -58,12 +58,12 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 
 #### Status codes
 
-|Status code|Description|
-|---|---|
-|201 Created|The resource is created successfully.<br>Example response:<br>![201_Created_Status](/Images/POST_201_Created_Status.png)|
-|400 Bad request|One or more fields contain invalid values.<br>Example response:<br>![400_Invalid_Values](/Images/POST_400_Invalid_Values.png)|
-|403 Unauthorized|The authentication credentials are incorrect or missing.<br>Example response:<br>![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
-|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.<br>Example response:<br>![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
+|Status code|Description|Example response|
+|---|---|---|
+|201 Created|The resource is created successfully.|![201_Created_Status](/Images/POST_201_Created_Status.png)|
+|400 Bad request|One or more fields contain invalid values.|![400_Invalid_Values](/Images/POST_400_Invalid_Values.png)|
+|403 Unauthorized|The authentication credentials are incorrect or missing.|![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
+|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
 
 ## Show a change request
 `GET` /change/{id}
@@ -95,12 +95,12 @@ Shows a change request by its ID.
 
 #### Status code
 
-|Status code|Description|
-|---|---|
-|200 OK|The resource is retrieved successfully.<br>Example response:<br>![Get_200](/Images/Get_200_Retrieved.png)|
-|403 Unauthorized|The authentication credentials are incorrect or missing.<br>Example response:<br>![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
-|404 Not found|The requested resource does not exist.<br>Example response:<br>![404_Not_Found](/Images/404_Not_Found.png)|
-|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.<br>Example response:<br>![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
+|Status code|Description|Example response|
+|---|---|---|
+|200 OK|The resource is retrieved successfully.|![Get_200](/Images/Get_200_Retrieved.png)|
+|403 Unauthorized|The authentication credentials are incorrect or missing.|![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
+|404 Not found|The requested resource does not exist.|![404_Not_Found](/Images/404_Not_Found.png)|
+|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
 
 ## Update a change request
 `PATCH` /change/{id}
@@ -147,12 +147,12 @@ urgency (optional)|Urgency measures how soon a change will significantly impact 
 
 #### Status codes
 
-|Status code|Description|
-|---|---|
-|200 OK|Successfully updated the resource.<br>Example response:<br>![200_OK](/Images/Patch_200_OK.png)|
-|400 Bad request|One or more fields contain invalid values.<br>Example response:<br>![400_Bad_Request](/Images/Patch_400_Bad_Request.png)|
-|403 Unauthorized|The authentication credentials are incorrect or missing.<br>Example response:<br>![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
-|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.<br>Example response:<br>![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
+|Status code|Description|Example response|
+|---|---|---|
+|200 OK|Successfully updated the resource.|![200_OK](/Images/Patch_200_OK.png)|
+|400 Bad request|One or more fields contain invalid values.|![400_Bad_Request](/Images/Patch_400_Bad_Request.png)|
+|403 Unauthorized|The authentication credentials are incorrect or missing.|![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
+|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
 
 
 
