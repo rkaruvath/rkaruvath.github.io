@@ -60,10 +60,10 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 
 |Status code|Description|
 |---|---|
-|201 Created|The resource is created successfully.|
-|400 Bad request|One or more fields contain invalid values.|
-|403 Unauthorized|The authentication credentials are incorrect or missing.|
-|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|
+|201 Created|The resource is created successfully.<br>Example response body:<br>![201_Created_Status](/Images/POST_201_Created_Status.png)|
+|400 Bad request|One or more fields contain invalid values.<br>Example response body:<br>![400_Invalid_Values](/Images/POST_400_Invalid_Values.png)|
+|403 Unauthorized|The authentication credentials are incorrect or missing.<br>Example response body:<br>![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
+|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.<br>![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
 
 ## Show a change request
 `GET` /change/{id}
@@ -97,10 +97,10 @@ Shows a change request by its ID.
 
 |Status code|Description|
 |---|---|
-|200 OK|The resource is retrieved successfully.|
-|403 Unauthorized|The authentication credentials are incorrect or missing.|
-|404 Not found|The requested resource does not exist.|
-|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|
+|200 OK|The resource is retrieved successfully.<br>![Get_200](/Images/Get_200_Retrieved.png)|
+|403 Unauthorized|The authentication credentials are incorrect or missing.<br>![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
+|404 Not found|The requested resource does not exist.<br>![404_Not_Found](/Images/404_Not_Found.png)|
+|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.<br>![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
 
 ## Update a change request
 `PATCH` /change/{id}
@@ -149,10 +149,10 @@ urgency (optional)|Urgency measures how soon a change will significantly impact 
 
 |Status code|Description|
 |---|---|
-|200 OK|Successfully updated the resource.|
-|400 Bad request|One or more fields contain invalid values.|
-|403 Unauthorized|The authentication credentials are incorrect or missing.|
-|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|
+|200 OK|Successfully updated the resource.<br>![200_OK](/Images/Patch_200_OK.png)|
+|400 Bad request|One or more fields contain invalid values.<br>![400_Bad_Request](/Images/Patch_400_Bad_Request.png)|
+|403 Unauthorized|The authentication credentials are incorrect or missing.<br>![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
+|500 Internal server error|The server encountered an unexpected error and couldn't complete the request.<br>![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
 
 
 
