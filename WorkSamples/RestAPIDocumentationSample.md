@@ -58,7 +58,7 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 
 #### Status codes
 
-|Status code|Description|Example response|
+|Status code|Description|<div style="width: 90px;">Example response</div>|
 |---|---|---|
 |201 Created|The resource is created successfully.|![201_Created_Status](/Images/POST_201_Created_Status.png)|
 |400 Bad request|One or more fields contain invalid values.|![400_Invalid_Values](/Images/POST_400_Invalid_Values.png)|
