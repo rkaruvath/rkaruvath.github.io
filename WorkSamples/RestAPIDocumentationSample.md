@@ -13,8 +13,8 @@ Alternatively, you can use the following REST API endpoints to perform the chang
 |Operation|HTTP method|Endpoint|Description
 |---|---|---|---|
 | [Create a change request](#create-a-change-request)|POST|/change|Creates a new change request.|
-|[Show a change request](#show-a-change-request)|GET|/change/{id}|Shows the details of a change request, by ID.|
-|[Update a change request](#update-a-change-request)|PATCH|/change/{id}|Updates a change request, by ID.|
+|[Show a change request](#show-a-change-request)|GET|/change/{id}|Shows the details of a change request by ID.|
+|[Update a change request](#update-a-change-request)|PATCH|/change/{id}|Updates a change request by ID.|
 
 ## Create a change request
 `POST` /change
