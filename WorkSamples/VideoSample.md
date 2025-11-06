@@ -1,5 +1,5 @@
 <div style="text-align: right">
-<a href="https://rkaruvath.github.io/WorkSamples/index.html">Home</a><br><a href="https://rkaruvath.github.io/WorkSamples/WritingSample.html">Writing sample</a><br><a href="https://rkaruvath.github.io/WorkSamples/RestAPIDocumentationSample.html">REST API documentation sample</a><br><a href="https://rkaruvath.github.io/WorkSamples/InfographicSample.html">Infographics sample</a>
+<a href="https://rkaruvath.github.io/WorkSamples/index.html">Home</a><br><a href="https://rkaruvath.github.io/WorkSamples/WritingSample.html">Documentation sample</a><br><a href="https://rkaruvath.github.io/WorkSamples/RestAPIDocumentationSample.html">REST API documentation sample</a><br><a href="https://rkaruvath.github.io/WorkSamples/InfographicSample.html">Infographics sample</a>
 </div>
 
 # Video sample
