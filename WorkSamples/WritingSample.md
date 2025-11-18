@@ -2,7 +2,7 @@
 <a href="https://rkaruvath.github.io/WorkSamples/index.html">Home</a><br><a href="https://rkaruvath.github.io/WorkSamples/RestAPIDocumentationSample.html">REST API documentation sample</a><br><a href="https://rkaruvath.github.io/WorkSamples/InfographicSample.html">Infographics sample</a><br><a href="https://rkaruvath.github.io/WorkSamples/VideoSample.html">Video sample</a>
 </div>
  
-# Writing sample
+# Documentation sample
 This page contains my writing sample.
 
 ## Configuring Agentic chat in ITSM
