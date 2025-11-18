@@ -33,6 +33,7 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
    * **chat**: To set the default search mode to Agentic chat.
 
 ### FAQ
+<div style="background-color: lightgray; padding: 10px;">
 <details>
   <summary>> Agentic chat does not generate any response even after you perform the required configurations.</summary>
 <p>
@@ -41,14 +42,16 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
   * A relevant published knowledge article does not exist in the knowledge repository referenced by GPT Manager.</p>
 <p>
   *	A relevant published knowledge article exists, but the logged-in user is not entitled to view the knowledge article.</p>
-</details>
+</details></div>
 <p></p>
+<div style="background-color: lightgray; padding: 10px;">
 <details>
   <summary>> Agentic chat generates a blank response when using the Microsoft Azure GPT-4 (Omni) model.</summary>
  <p>
  The token per minute (TPM) rate limit configured for the Microsoft Azure GPT-4 (Omni) model might be reached.</p>
-</details>
+</details></div>
 <p></p>
+<div style="background-color: lightgray; padding: 10px;">
 <details>
   <summary>> Agentic chat shows incorrect or varied responses when searching for information from knowledge articles.</summary>
 <p>  
@@ -57,4 +60,4 @@ After you enable Agentic chat, you can set the default search mode to Agentic ch
   * Response generation depends on many factors such as accuracy of the knowledge articles, model, and prompt configuration. Therefore, the generated responses might vary.</p>
 <p>
   * GPT Manager does not use information present in the attached documents of the knowledge articles for generating responses. Therefore, if the information is present in an attached document of a knowledge article, the generated response does not contain the information.</p>
-</details>
+</details></div>
