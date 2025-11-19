@@ -68,7 +68,7 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 ## Show a change request
 `GET` /change/{id}
 
-Shows a change request by its ID.
+Shows a change request by ID.
 
 ### Request URL
 &lt;baseurl&gt;/change/{id}
@@ -105,7 +105,7 @@ Shows a change request by its ID.
 ## Update a change request
 `PATCH` /change/{id}
 
-Updates a change request by its ID.
+Updates a change request by ID.
 
 ### Request URL
 &lt;baseurl&gt;/change/{id}
