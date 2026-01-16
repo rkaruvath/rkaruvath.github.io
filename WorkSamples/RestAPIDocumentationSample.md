@@ -48,13 +48,21 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 |coordinator.loginId|The login ID of the change coordinator to be assigned the change request.|string|
 |changeManager.loginId|The login ID of the change manager  monitoring the change request.|string|
 
-#### Example schema
+#### Example request schema
 ![Create change schema](/Images/Create_Change_API_Request_Schema.png)
 
 #### Example request
 ![Create change request sample](/Images/Create_Change_API_Request_Sample_cURL.png)
 
 ### Response
+
+#### Response attributes
+When a change request is successfully created, the API returns an HTTP 201 Created status code with a JSON response body that includes the following attributes:
+
+|Attribute|Description|Type|
+|---|---|---|
+|status|A message indicating that the change request is successfully created.|string|
+|details|Contains the following child attributes:<br><br>* requestId (string): A unique identifier of the specific API request instance. For example: "CRQ000000000212"<br><br>* guid (string): A Globally Unique Identifier (GUID) assigned to the new change request for internal system tracking.<br><br>* id (string): A unique identifier of the new change request.|object|
 
 #### Status codes
 
@@ -133,7 +141,7 @@ status (Optional)|The current state of the change request.<br><br>The following 
 |statusReason (Optional)|Reason for the current status change.|string|
 |summary (Optional)|Summary of the change request.|string|
 
-#### Example schema
+#### Example request schema
 ![Update change schema](/Images/Update_Change_API_Request_Schema.png)
 
 #### Example request
