@@ -62,7 +62,7 @@ When a change request is successfully created, the API returns an HTTP 201 Creat
 |Attribute|Description|Type|
 |---|---|---|
 |status|A message indicating that the change request is successfully created.|string|
-|details|Contains the following child attributes:<br><br>* requestId (string): A unique identifier of the specific API request instance. For example: "CRQ000000000212"<br><br>* guid (string): A Globally Unique Identifier (GUID) assigned to the new change request for internal system tracking.<br><br>* id (string): A unique identifier of the new change request.|object|
+|details|Contains the following child attributes:<br><br>* requestId (string): A unique identifier of the specific API request instance.<br><br>* guid (string): A Globally Unique Identifier (GUID) assigned to the new change request for internal system tracking.<br><br>* id (string): A unique identifier of the new change request.|object|
 
 #### Status codes
 
