@@ -16,6 +16,8 @@ Alternatively, you can use the following REST API endpoints to perform the chang
 |[Show a change request](#show-a-change-request)|GET|/change/{id}|Shows the details of a change request by ID.|
 |[Update a change request](#update-a-change-request)|PATCH|/change/{id}|Updates a change request by ID.|
 
+---
+
 ## Create a change request
 `POST` /change
 
@@ -59,7 +61,7 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 #### Response attributes
 When a change request is successfully created, the API returns an HTTP 201 Created status code with a JSON response body that includes the following attributes:
 
-|Attribute|Description|Type|
+|Name|Description|Type|
 |---|---|---|
 |status|A message indicating that the change request is successfully created.|string|
 |details|Contains the following child attributes:<br><br>* requestId (string): A unique identifier of the specific API request instance.<br><br>* guid (string): A Globally Unique Identifier (GUID) assigned to the new change request for internal system tracking.<br><br>* id (string): A unique identifier of the new change request.|object|
@@ -72,6 +74,8 @@ When a change request is successfully created, the API returns an HTTP 201 Creat
 |400 Bad request|One or more fields contain invalid values.|![400_Invalid_Values](/Images/POST_400_Invalid_Values.png)|
 |403 Unauthorized|The authentication credentials are incorrect or missing.|![403_Unauthorized](/Images/POST_403_Unauthorized.png)|
 |500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
+
+---
 
 ## Show a change request
 `GET` /change/{id}
@@ -109,6 +113,8 @@ Shows a change request by ID.
 |403 Unauthorized|The authentication credentials are incorrect or missing.|![GET_403_Unauthorized](/Images/Get_403_Unauthorized.png)|
 |404 Not found|The requested resource does not exist.|![404_Not_Found](/Images/404_Not_Found.png)|
 |500 Internal server error|The server encountered an unexpected error and couldn't complete the request.|![500_Internal_Server_Error](/Images/POST_500_Internal_Server_Error.png)|
+
+---
 
 ## Update a change request
 `PATCH` /change/{id}
