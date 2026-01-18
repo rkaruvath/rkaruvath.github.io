@@ -59,7 +59,7 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 ### Response
 
 #### Response attributes
-When a change request is successfully created, the API returns an HTTP 201 Created status code with a JSON response body that includes the following attributes:
+After a change request is successfully created, the API returns an HTTP 201 Created status code with a JSON response body that includes the following attributes:
 
 |Name|Description|Type|
 |---|---|---|
