@@ -61,10 +61,13 @@ urgency (optional)|Urgency measures how soon the change will significantly impac
 #### Response attributes
 After a change request is successfully created, the API returns an HTTP 201 Created status code with a JSON response body that includes the following attributes:
 
-|Name|Description|Type|
-|---|---|---|
-|status|A message indicating that the change request is successfully created.|string|
-|details|Contains the following child attributes:<br><br>* requestId (string): A unique identifier of the specific API request instance.<br><br>* guid (string): A Globally Unique Identifier (GUID) assigned to the new change request for internal system tracking.<br><br>* id (string): A unique identifier of the new change request.|object|
+|Attribute name|Child attribute name|Description|Type|
+|---|---|---|---|
+|status||A message indicating that the change request is successfully created.|string|
+|details||An object containing specific identifiers associated with the new change request.|object|
+||requestId|A unique identifier of the specific API request. Use this ID when searching through logs to track this transaction.|string|
+||guid|A Globally Unique Identifier (GUID) of the new change request. This is a system-generated, immutable string used for internal database mapping.|string|
+||id|A business-facing identifier of the new change request. Use this ID for subsequent GET, PATCH, or DELETE operations.|string|
 
 #### Status codes
 
