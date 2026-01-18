@@ -69,7 +69,7 @@ After a change request is successfully created, the API returns an HTTP 201 Crea
 |details||An object containing specific identifiers associated with the new change request.|object|
 ||requestId|A unique identifier of the specific API request. Use this ID when searching through logs to track this transaction.|string|
 ||guid|A Globally Unique Identifier (GUID) of the new change request. This is a system-generated, immutable string used for internal database mapping.|string|
-||id|A business-facing identifier of the new change request. Use this ID for subsequent GET, PATCH, or DELETE operations.|string|
+||id|A business-facing identifier of the new change request. Use this ID for subsequent GET, PATCH, or DELETE operations on this specific change request.|string|
 
 #### Status codes
 
