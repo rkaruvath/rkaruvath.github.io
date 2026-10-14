@@ -7,12 +7,12 @@ This page contains my writing sample.
 
 ## Configuring Agentic chat in ITSM
 
-As an administrator, configure Agentic chat in the ITSM application. Agentic chat uses the advanced AI capabilities of GPT Manager to augment the global search, which is a full-text search in ITSM, with an AI-powered, chat-based search.
+As an administrator, you can enable Agentic chat for the ITSM application. Agentic chat uses the advanced AI capabilities of GPT Manager to augment the global search, which is a full-text search in ITSM, with an AI-powered, chat-based search.
 
 While working on incidents tickets in ITSM, service desk agents can use Agentic chat for a conversational, AI-driven experience to search for information from knowledge articles about how to resolve the incidents. Instead of manually searching for the information, service desk agents can ask specific questions in Agentic chat and get relevant, summarized answers. Thereby, leading to faster incident analysis and resolution.
 
 ### Before you begin
-Perform the following tasks in GPT Manager before enabling Agentic chat in ITSM:
+Perform the following tasks in GPT Manager before enabling Agentic chat for ITSM:
 
 |No.|Task|Description|Reference|
 |---|---|---|---|
