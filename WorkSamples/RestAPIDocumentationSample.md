@@ -8,7 +8,7 @@ This page contains REST API documentation sample.
 ___
 
 ## Change Management REST API
-Use the Change Management module in the ITSM application to plan, schedule, implement, and manage changes to the technology environment in your organization. For example, migrate data to a new database system. 
+Use the Change Management module in the ITSM application to plan, schedule, implement, and manage changes to the technology environment in your organization. For example, plan, schedule, and manage data migration tasks. 
 
 Alternatively, you can use the following REST API endpoints to perform the change operations: 
 
