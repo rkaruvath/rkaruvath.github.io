@@ -12,7 +12,7 @@ As an administrator, configure Agentic chat in the ITSM application. Agentic cha
 While working on incidents tickets in ITSM, service desk agents can use Agentic chat for a conversational, AI-driven experience to search for information from knowledge articles about how to resolve the incidents. Instead of manually searching for the information, service desk agents can ask specific questions in Agentic chat and get relevant, summarized answers. Thereby, leading to faster incident analysis and resolution.
 
 ### Before you begin
-Perform the following tasks GPT Manager before enabling Agentic chat in ITSM:
+Perform the following tasks in GPT Manager before enabling Agentic chat in ITSM:
 
 |No.|Task|Description|Reference|
 |---|---|---|---|
